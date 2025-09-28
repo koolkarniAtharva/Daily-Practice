@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(246, 248, 250);
+
+}
+.Navbar{
+    padding: 60px;
+    color: white;
+    background-color: rgba(26, 36, 52);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.insideNav{
+    padding: 15px;
+    font-size: 20px;
+    font-style: italic;
+    text-transform: capitalize;
+    font-weight:100;
+}
+.container{
+    margin: 25px;
+    padding: 20px;
+}
+.About{
+    background-color:white;
+    margin: 25px;
+    padding: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+#insideAbout{
+    padding: 20px;
+    font-size:20px;
+    font-weight: 100;
+    text-transform: none;
+}
+.Education{
+    background-color:rgba(218, 240, 255);
+    margin: 25px;
+    padding: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#insideEducation1{
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+    font-size:20px;
+    font-weight: 100;
+    text-transform: none;
+}
+
+#insideEducation2{
+    margin: 5px;
+    padding: 10px;
+    font-size:20px;
+    font-weight: 100;
+    text-transform: none;
+    background-color: white;
+}
+
+.skills{
+    background-color:rgba(254, 240, 191);
+    margin: 25px;
+    padding: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+#insideskills1{
+    margin-left: 60px;
+    margin-right:60px;
+    margin-top:5px;
+    padding: 10px;
+    font-size:20px;
+    font-weight: 100;
+    text-transform: none;
+    background-color: white;
+}
+
+#insideskills2{
+    margin-left: 60px;
+    margin-right:60px;
+    margin-top:5px;
+    padding: 10px;
+    font-size:20px;
+    font-weight: 100;
+    text-transform: none;
+    background-color: white;
+}
+#insideskills3{
+    margin-left: 60px;
+    margin-right:60px;
+    margin-top:5px;
+    padding: 10px;
+    font-size:20px;
+    font-weight: 100;
+    text-transform: none;
+    background-color: white;
+}
+#insideskills4{
+    margin-left: 60px;
+    margin-right:60px;
+    margin-top:5px;
+    padding: 10px;
+    font-size:20px;
+    font-weight: 100;
+    text-transform: none;
+    background-color: white;
+}
+
+.projects{
+    background-color:rgba(235, 230, 254);
+    margin: 25px;
+    padding: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+#insideProject1{
+    margin:5px;
+    padding: 15px;
+    font-size: 20px;
+    font-style: italic;
+    text-transform: capitalize;
+    font-weight:100;
+    background-color: white;
+}
+#insideProject2{
+    margin:5px;
+    padding: 15px;
+    font-size: 20px;
+    font-style: italic;
+    text-transform: capitalize;
+    font-weight:100;
+    background-color: white;
+}
+#insideProject3{
+    margin:5px;
+    padding: 15px;
+    font-size: 20px;
+    font-style: italic;
+    text-transform: capitalize;
+    font-weight:100;
+    background-color: white;
+}
+
+.Contact{
+    background-color:rgba(215, 252, 227);
+    margin: 25px;
+    padding: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#insideContact1{
+    margin-left: 60px;
+    margin-right:60px;
+    margin-top:5px;
+    padding: 15px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight:100;
+    background-color: white;
+}
+#insideContact2{
+    margin-left: 60px;
+    margin-right:60px;
+    margin-top:5px;
+    padding: 15px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight:100;
+    background-color: white;
+}
+#insideContact3{
+    margin-left: 60px;
+    margin-right:60px;
+    margin-top:5px;
+    padding: 15px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight:100;
+    background-color: white;
+}
+
+.footer{
+    padding-top: 30px;
+    color: white;
+    background-color: rgba(26, 36, 52);
+    text-align: center;
+}
