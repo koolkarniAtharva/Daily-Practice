@@ -1,0 +1,40 @@
+@import "button";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+@mixin flexcenter{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    @include flexcenter;
+
+    section{
+        height: 50%;
+        width: 50%;
+        background-color: rgb(45, 255, 185);
+        @include flexcenter;
+
+        .red{
+            @include buttonstyle(rgb(255, 0, 0));
+        }
+        .blue{
+            @include buttonstyle(rgb(51, 0, 255));
+        }
+    }
+
+}
