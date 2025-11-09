@@ -1,0 +1,15 @@
+12. Ask user for words until they type “stop”. Count how many times they typed “yes”
+Loop until "stop" is typed. Count "yes".
+
+13. Print numbers divisible by 7 from 1 to 50
+Use modulo % and loop.
+
+14. Sum of all odd numbers from 1 to 30
+Add only odd numbers. Print final sum.
+
+15. Keep asking number until user enters an even number
+Use while loop. Stop only if input is even.
+
+16. Print numbers between two user inputs
+Input start and end using prompt() → print all between.
+
