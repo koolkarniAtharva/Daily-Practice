@@ -1,0 +1,10 @@
+17. Print only first 3 odd numbers from 1 to 20
+Use loop. Stop with break after 3 odd prints.
+
+18. Ask user 5 numbers. Count how many are positive
+Use loop + condition + counter.
+
+19. ATM Simulator – Allow 3 withdrawals
+Start with ₹1000 balance. Ask withdrawal amount 3 times.
+If enough balance → deduct
+Else → print “Insufficient balance”
