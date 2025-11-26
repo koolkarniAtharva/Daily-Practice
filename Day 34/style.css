@@ -7,4 +7,14 @@
 html, body {
   height: 100%;
   width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  background-color: rgb(149, 149, 149);
+  font-size: 100px;
+  color: rgb(0, 0, 0);
 }/*# sourceMappingURL=style.css.map */
