@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  background-color: black;
+}
+
+:root{
+    --X:200 px;
+    --Y:200 px;
+}
+
+// body{
+//   background-image: url("https://images.pexels.com/photos/10183959/pexels-photo-10183959.jpeg");
+//   background-size: cover;
+// }
+// .box{
+//   height: 100%;
+//   width: 100%;
+//   background: radial-gradient(250px at var(--X) var(--Y) , rgba(255, 255, 255, 0) , rgba(0, 0, 0, 0.929) );
+// }
+
+html{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+p{
+  color: green;
+  font-size: 4rem;
+}
