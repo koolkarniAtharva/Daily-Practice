@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+}
+body{
+    background-color: #000;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes changeBgc{
+  from {
+    background-color: #fff;
+    border-radius: 0px;
+    scale: 1;
+  }
+
+  to{
+    background-color: red;
+    border-radius: 50px;
+    scale: 0.5;
+  }
+
+}
+
+.box{
+    height: 200px;
+    width: 400px;
+    animation : changeBgc 5s infinite forwards alternate;
+}
