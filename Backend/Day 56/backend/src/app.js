@@ -2,10 +2,12 @@ const express = require("express");
 const { models } = require("mongoose");
 const noteModel = require("./models/note.models");
 const cors = require("cors");
+const path = require("path");
 
 const app = express()
 app.use(cors())
 app.use(express.json());
+app.use(express.static("./public"))
 //POST api/notes
 
 app.post('/api/notes', async (req,res)=>{
@@ -52,6 +54,11 @@ app.patch("/api/notes/:id", async(req,res)=>{
     res.status(200).json({
         message:"Note Updated sucessfully"
     })
+})
+
+
+app.use('*name',(req,res)=>{
+    res.sendFile(path.join(__dirname,"..","/public/index.html"))
 })
 
 module.exports = app;
