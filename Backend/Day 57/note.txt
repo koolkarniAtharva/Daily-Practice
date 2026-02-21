@@ -1,0 +1,7 @@
+Authentication => identify karna ki request kis user se ahh rahi hai 
+
+Authorization => user Kya kar sarkta hai 
+
+Validation => data ka format check karna
+
+Verification => Data sahi hai ya nahi check Karna
