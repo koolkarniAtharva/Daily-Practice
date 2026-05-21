@@ -5,7 +5,7 @@ const port = 3000
 app.get('/', (req, res) => {
     res.status(200).json(
         {
-            message:'Hello World!'
+            message:'Hello'
         }
     )
 })
@@ -18,4 +18,4 @@ app.get('/api/data',(req,res)=>{
     res.status(200).json(data)
 })
 
-app.listen(port, () => console.log(`Example app listening on port ${port}`))
+app.listen(port, () => console.log(`Example app listening on port ${port}`)) 
